@@ -14,8 +14,6 @@ body {
     min-height: 100vh;
     background: url('https://i.ibb.co/0jZ510LK/onboarding-bg.png') no-repeat center center/cover;
     position: relative;
-    /* padding: 40px 70px; */
-    overflow: hidden;
     aspect-ratio: 640 / 427;
 }
 
@@ -400,6 +398,9 @@ font-size:38px;
 
 .features-bar{
 grid-template-columns:repeat(2,1fr);
+}
+.main-section{
+    display: none;
 }
 }
 
